@@ -1,0 +1,383 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.layout {
+    height: 95vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/19fc1a4c-82db-4481-ad08-3a1dffbb8c39/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg");
+    /* background-position: bottom right; */
+    background-position: center center;
+
+}
+
+.boxshade {
+    height: 100%;
+    /* opacity: .44; */
+    background-color: rgba(0, 0, 0, 0.748);
+    position: relative;
+
+}
+
+nav {
+    height: 50px;
+    max-width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 40px;
+    margin-top: 40px;
+}
+
+.signin {
+    padding: 9px 20px;
+    font-size: 13px;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.english1 {
+    margin-top: 40px;
+}
+
+.english {
+    padding-top: 0.375rem;
+    padding-right: calc(2.25rem + 0rem);
+    padding-bottom: 0.375rem;
+    padding-left: calc(0.625rem + 1rem + 0.5rem);
+    background-color: rgba(0, 0, 0, 0.556);
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.text {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.text h2 {
+    font-weight: 400;
+}
+
+.email {
+    height: 53px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.556);
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(118, 118, 118);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+.getbtn {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text5 {
+    display: flex;
+    gap: 10px;
+    max-width: 50vw;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sepration {
+    height: 8px;
+    background-color: rgb(47, 45, 45);
+}
+
+.section-text {
+    color: white;
+}
+
+.section {
+    display: flex;
+    max-width: 78vw;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sectiom-imgv {
+    position: relative;
+}
+
+.sectiom-img {
+    position: relative;
+    z-index: 10;
+
+}
+
+.sectiom-video {
+    position: absolute;
+    top: 20%;
+    right: 12%;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-text :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.section-text :nth-child(2) {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+.section2-img2 {
+    height: 90px;
+    /* position: absolute;
+    top: 70%; */
+}
+
+.section2-div {
+    background-color: black;
+    height: 100px;
+    width: 320px;
+    border: solid rgb(79, 78, 78) 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 67%;
+    right: 25%;
+    z-index: 10;
+    gap: 15px;
+}
+
+.section2-div :nth-child(2) {
+    color: white;
+}
+
+.section3-video {
+    position: absolute;
+    top: 11%;
+    right: 18%;
+    max-width: 63%;
+    max-height: 47%;
+}
+
+.section3-img {
+    height: 420px;
+}
+
+.final-section {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.final-section-box {
+    height: 50px;
+    color: white;
+    background-color: #2d2d2d;
+    font-size: 25px;
+    font-family: sans-serif;
+    max-width: 73vw;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 25px;
+    cursor: pointer;
+}
+
+.final-section-box:hover {
+    background-color: #565454;
+    transition: all 0.5s ease-out;
+}
+
+.final-section-text2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.last-sepration {
+    margin-top: 70px;
+}
+
+.footer-text1 {
+    color: rgb(173, 172, 172);
+    font-size: 17px;
+    max-width: 74vw;
+    margin: auto;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 73vw;
+    margin: auto;
+
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.footer-items a,
+.footer-last-text {
+    font-size: 14px;
+    color: rgb(173, 172, 172);
+    font-family: sans-serif;
+}
+
+.footer-button {
+    max-width: 73vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-last-text {
+    margin-top: 30px;
+}
+
+@media screen and (max-width:500px) {
+
+    .text5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav {
+        max-width: 95vw;
+    }
+
+    .text h1 {
+        font-size: 43px;
+    }
+
+    .text h2 {
+        font-weight: 500;
+        max-width: 80vw;
+    }
+
+    .text {
+        justify-content: center;
+        align-items: center;
+        height: 68vh;
+    }
+
+    .layout {
+        height: 69vh;
+    }
+
+    .section {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-text :first-child {
+        font-size: 34px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .section-text :nth-child(2) {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sectiom-img {
+        height: 270px;
+    }
+
+    .sectiom-video {
+        height: 152px;
+    }
+
+    .section2-div {
+        position: absolute;
+        top: 66%;
+        right: 6%;
+    }
+    .final-section{
+        font-size: 39px;
+        font-weight: 700;
+    }
+    .final-section-box{
+        font-size: 21px;
+    }
+    .final-section-text2 {
+        font-size: 25px;
+        max-width: 80vw;
+       margin: auto;
+       margin-top: 64px;
+       margin-bottom:15px;
+    }
+    .footer-item{
+        grid-template-columns: 1fr 1fr;
+        gap: 11px;
+    }
+}
